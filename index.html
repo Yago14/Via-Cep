@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Cep</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    
+    <div class="container">
+
+        <h1>Consultando CEP</h1>
+
+        <h3>Tab para auto-complete</h3>
+
+        <form>
+            <div class="form-group">
+                <label for="cep">CEP</label>
+                <input type="text" maxlength="9" class="form-control" id="cep">
+                <smals>00000-000</smals>
+            </div>
+            <div class="form-group">
+                <label for="logradouro">Logradouro</label>
+                <input type="text" class="form-control" id="logradouro">
+                <smals>Rua.</smals>
+            </div>
+            <div class="form-group">
+                <label for="bairro">Bairro</label><input type="text" class="form-control" id="bairro">
+                <smals>bairro</smals>
+            </div>
+            <div class="form-group">
+                <label for="localidade">Localidade</label><input type="text" class="form-control" id="localidade">
+                <smals>Cidade</smals>
+            </div>
+            <div class="form-group">
+                <label for="uf">UF</label><input type="text" class="form-control" id="uf">
+                <smals>Estado</smals>
+            </div>
+        </form>
+    </div>
+    <script src="src/js/main.js"></script>
+    
+</body>
+</html>
